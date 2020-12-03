@@ -1,0 +1,50 @@
+.sidebar-content{
+    flex: 0 0 18%;
+    background-color: #33383E;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.sidebar__user{
+    margin-top: 18px;
+}
+
+.sidebar__image-container{
+    height: 190px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.562),rgba(0, 0, 0, 0.582)),url('../../../assest/images/Mountain.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.box{
+position: absolute;
+top:50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.user__profile{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.user__profile-details{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.footer{
+    color: #b2bec3;
+    text-align: center;
+    margin-top: 20px;
+}

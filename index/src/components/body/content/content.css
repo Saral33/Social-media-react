@@ -1,0 +1,52 @@
+.contents{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    }
+   
+
+    .content-box{
+        width: 75%;
+        margin-top: 30px;
+        margin-left: 50px;
+        padding-top: 20px;
+        background-color: rgba(231, 228, 228, 0.575);
+        margin-bottom: 20px;
+    }
+    .content-body{
+        margin-top: 20px;
+    }
+
+    .content-head{
+        display: flex;
+        
+       flex-direction: row;
+       justify-content: space-between;
+    }
+
+    .username-id{
+        color: #666A84;
+    }
+
+    .tweet-box{
+        margin-top: 20px;
+        width:75%;
+    }
+
+    .tweet-user{
+        width: 100%;
+        display: flex;
+    }
+
+    .tweet-area{
+        width:100%;
+        height: 130px;
+        font-size: 20px;
+    }
+    
+    
+        
+        
+    
+
+
